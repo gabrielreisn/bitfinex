@@ -56,19 +56,19 @@ export const bookSlice = createSlice({
 
 export const getBookDetails = (channelId: string) =>
   createSelector(
-    (state) => state.book.data[channelId] || [],
+    (state: any) => state.book.data[channelId] || [],
     (bookDetails) => bookDetails
   );
 
 export const getSellBookDetails = (channelId: string) =>
   createSelector(
-    (state) => state.book.data[channelId] || [],
+    (state: any) => state.book.data[channelId] || [],
     (bookDetails: any) => bookDetails.filter((book: BookRecord) => book.operation === 'sell')
   );
 
 export const getBuyBookDetails = (channelId: string) =>
   createSelector(
-    (state) => state.book.data[channelId] || [],
+    (state: any) => state.book.data[channelId] || [],
     (bookDetails: any) => bookDetails.filter((book: BookRecord) => book.operation === 'buy')
   );
 

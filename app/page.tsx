@@ -1,6 +1,6 @@
 'use client';
 import { Table } from '@/Components/Table';
-import { getBookDetails, getBuyBookDetails, getSellBookDetails, setBookOrder } from '@/lib/redux/slices/bookSlice';
+import { getBuyBookDetails, getSellBookDetails, setBookOrder } from '@/lib/redux/slices/bookSlice';
 
 import React, { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
