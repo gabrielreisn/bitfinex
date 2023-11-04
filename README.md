@@ -2,6 +2,10 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Production app
+
+The final version can be found here: https://bitfinex-efv2.vercel.app/
+
 ## requirements
 
 - node v18.17.0 >
@@ -31,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - tailwindcss
 - eslint / prettier
 - github actions (CI/CD)
-- netlify (deployments and PR previews)
+- Vercel (deployments and PR previews)
 - docker (optional)
 
 ## Folder structure
